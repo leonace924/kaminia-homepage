@@ -1,6 +1,7 @@
-# Craft starter
+# kamina-homepage
 
-A starter project for Craft CMS 3.
+Kamina Website Homepage project for Craft CMS 3 Test
+
 
 ## Craft setup
 
@@ -51,7 +52,7 @@ generate a new key run `./craft setup/security-key` (this will be added to your
 ## CSS & JS
 
 There is no defined build process. But the default template expects CSS and JS
-to be output to `/web/assets/css/main.css` and `/web/assets/js/main.js`
+to be output to `/web/assets/main.css` and `/web/assets/main.js`
 respectively.
 
 The `/assets` directory is not commited to the git repository, so deployment
