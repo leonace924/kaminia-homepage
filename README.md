@@ -1,6 +1,6 @@
-# kamina-homepage
+# kaminia-homepage
 
-Kamina Website Homepage project for Craft CMS 3 Test
+Kaminia Website Homepage project for Craft CMS 3 Test
 
 
 ## Craft setup
