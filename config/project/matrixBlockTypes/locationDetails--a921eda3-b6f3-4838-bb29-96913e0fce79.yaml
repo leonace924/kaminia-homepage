@@ -1,0 +1,80 @@
+field: 5ab7a284-29b5-4ba7-b9a4-0a1d4b12144f
+fieldLayouts:
+  65f4d158-c8bf-41f8-a6ee-507baf2a8b5f:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 4785a585-910c-4da0-8299-f05af7f8207c
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 998cedd0-1ef4-4dd3-87f8-8d308068b2bc
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  4785a585-910c-4da0-8299-f05af7f8207c:
+    contentColumnType: text
+    fieldGroup: null
+    handle: slideTitle
+    instructions: ''
+    name: 'Slide Title'
+    searchable: true
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  998cedd0-1ef4-4dd3-87f8-8d308068b2bc:
+    contentColumnType: string
+    fieldGroup: null
+    handle: slideImage
+    instructions: ''
+    name: 'Slide Image'
+    searchable: true
+    settings:
+      allowSelfRelations: false
+      allowedKinds:
+        - image
+      defaultUploadLocationSource: 'volume:66b75dae-aadd-43b7-857e-6d3d40b4b6a2'
+      defaultUploadLocationSubpath: ''
+      limit: '1'
+      localizeRelations: false
+      restrictFiles: '1'
+      selectionLabel: ''
+      showSiteMenu: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: true
+      singleUploadLocationSource: 'volume:66b75dae-aadd-43b7-857e-6d3d40b4b6a2'
+      singleUploadLocationSubpath: ''
+      source: null
+      sources: '*'
+      targetSiteId: null
+      useSingleFolder: false
+      validateRelatedElements: false
+      viewMode: list
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+handle: locationDetails
+name: 'Location Details'
+sortOrder: 1

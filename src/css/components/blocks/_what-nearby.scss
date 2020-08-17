@@ -1,0 +1,33 @@
+.c-what-nearby {
+  margin-top: 121px;
+
+  h2 {
+    margin-bottom: 81px;
+    @apply text-center;
+  }
+
+  &__content {
+    column-gap: 56px;
+    @apply grid grid-cols-4 gap-9;
+  }
+
+  &__card {
+    p {
+      margin-bottom: 18px;
+    }
+
+    &--title {
+      @apply text-base uppercase;
+    }
+
+    &--image {
+      height: 182px;
+      margin-bottom: 17px;
+      @apply w-full bg-secondary;
+    }
+
+    span {
+      @apply text-sm text-light-gray italic;
+    }
+  }
+}

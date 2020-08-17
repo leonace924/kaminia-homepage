@@ -1,0 +1,52 @@
+{% extends "_layouts/_base.twig" %}
+
+{% block main %}
+	{# {% dd entry %} #}
+
+	<div class="v-home__header">
+		{%
+			include '_components/blocks/homepage-header.twig' with {
+				'bannerTitle': entry.bannerTitle,
+				'bannerImage': entry.bannerImage,
+		}
+		%}
+	</div>
+
+	<div class="v-home__content">
+		{%
+			include '_components/blocks/book-stay.twig' with {
+		}
+		%}
+		{%
+			include '_components/blocks/at-glance.twig' with {
+		}
+		%}
+		{%
+			include '_components/blocks/homepage-video.twig' with {
+		}
+		%}
+		{%
+			include '_components/blocks/key-features.twig' with {
+		}
+		%}
+		{%
+			include '_components/blocks/homepage-location.twig' with {
+			'slides': entry.locationSlide.all()
+		}
+		%}
+		{%
+			include '_components/blocks/what-nearby.twig' with {
+		}
+		%}
+		{%
+			include '_components/blocks/further-beyond.twig' with {
+		}
+		%}
+		{%
+			include '_components/blocks/ready-relax.twig' with {
+				'backgroundImage': entry.relaxImage,
+		}
+		%}
+
+	</div>
+{% endblock %}

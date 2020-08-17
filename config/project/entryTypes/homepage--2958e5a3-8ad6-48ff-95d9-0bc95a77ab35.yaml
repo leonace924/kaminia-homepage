@@ -1,0 +1,76 @@
+fieldLayouts:
+  89d029fc-998a-4fe6-91d3-e731168d0ffd:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: fc11d5eb-d042-43c4-bc6e-63a38c201090
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: bac1e266-423c-4b7c-bd38-1bd1c6a3d75a
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 7d762406-b88d-4da2-9461-95561df3178f
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 5ab7a284-29b5-4ba7-b9a4-0a1d4b12144f
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            autofocus: false
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            required: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\EntryTitleField
+            warning: null
+            width: 100
+        name: Homepage
+        sortOrder: 1
+handle: homepage
+hasTitleField: true
+name: Homepage
+section: dd8528fb-979f-4d18-9932-4cd4af05f0a0
+sortOrder: 1
+titleFormat: '{section.name|raw}'
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

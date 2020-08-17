@@ -1,0 +1,14 @@
+.c-homepage-header {
+  @apply relative;
+
+  &__banner {
+    height: 693px;
+    background-size: cover;
+    background-position: center;
+  }
+
+  &__text {
+    bottom: 60px;
+    @apply absolute left-0 w-full;
+  }
+}

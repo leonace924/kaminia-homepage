@@ -1,0 +1,11 @@
+enableVersioning: true
+handle: homepage
+name: Homepage
+propagationMethod: all
+siteSettings:
+  da06c0e6-3443-4f86-923d-5bddf6fb6f71:
+    enabledByDefault: true
+    hasUrls: true
+    template: _views\home
+    uriFormat: __home__
+type: single

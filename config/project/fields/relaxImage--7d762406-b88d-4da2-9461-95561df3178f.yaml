@@ -1,0 +1,30 @@
+contentColumnType: string
+fieldGroup: d30f5b86-f31a-45c3-8ec2-7cd5bfafe237
+handle: relaxImage
+instructions: ''
+name: 'Relax Image'
+searchable: true
+settings:
+  allowSelfRelations: false
+  allowedKinds:
+    - image
+  defaultUploadLocationSource: 'volume:66b75dae-aadd-43b7-857e-6d3d40b4b6a2'
+  defaultUploadLocationSubpath: ''
+  limit: '1'
+  localizeRelations: false
+  restrictFiles: '1'
+  selectionLabel: ''
+  showSiteMenu: true
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: true
+  singleUploadLocationSource: 'volume:66b75dae-aadd-43b7-857e-6d3d40b4b6a2'
+  singleUploadLocationSubpath: homepage
+  source: null
+  sources: '*'
+  targetSiteId: null
+  useSingleFolder: true
+  validateRelatedElements: false
+  viewMode: list
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Assets

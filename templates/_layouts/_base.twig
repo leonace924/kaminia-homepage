@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+		<link rel="stylesheet" {% if craft.app.config.general.devMode %} href="assets/main.css" {% else %} href="{{ rev("/assets/main.css") }}" {% endif %}/>
+
+	</head>
+	<body>
+		{% include "_components/blocks/site-header" %}
+
+		{% block main %}{% endblock %}
+		{% include "_components/blocks/site-footer" %}
+
+		<script {% if craft.app.config.general.devMode %} src="/assets/main.js" {% else %} src="{{ rev("/assets/main.js") }}" {% endif %}></script>
+	</body>
+</html>

@@ -1,0 +1,9 @@
+.c-homepage-video {
+  margin-top: 123px;
+  margin-bottom: -100px;
+
+  &__content {
+    height: 582px;
+    @apply w-full bg-gray-300;
+  }
+}

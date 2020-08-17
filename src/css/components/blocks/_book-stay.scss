@@ -1,0 +1,17 @@
+.c-book-stay {
+  margin-top: 85px;
+  @apply text-center;
+
+  h3 {
+    @apply text-center;
+  }
+
+  &__button {
+    margin-top: 35px;
+    @apply bg-black uppercase text-sm text-white py-5 px-16;
+
+    &:hover {
+      @apply bg-gray-800;
+    }
+  }
+}

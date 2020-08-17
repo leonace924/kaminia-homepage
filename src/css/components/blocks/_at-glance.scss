@@ -1,0 +1,27 @@
+.c-at-glance {
+  margin-top: 124px;
+  @apply text-center;
+
+  h3 {
+    margin-top: 116px;
+    @apply text-center;
+  }
+
+  &__content {
+    margin-top: 69px;
+    column-gap: 56px;
+    @apply grid grid-cols-3 gap-9;
+  }
+
+  &__card {
+    p {
+      margin-bottom: 19px;
+      @apply text-lg uppercase;
+    }
+
+    &--image {
+      height: 265px;
+      @apply w-full bg-secondary;
+    }
+  }
+}

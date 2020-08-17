@@ -1,0 +1,47 @@
+.c-site-footer {
+  padding-top: 55px;
+  padding-bottom: 75px;
+  @apply text-center;
+
+  h2 {
+    margin-bottom: 33px;
+  }
+
+  h3 {
+    @apply text-2xl;
+    margin-bottom: 16px;
+  }
+
+  &__logo {
+    margin-top: 90px;
+    @apply flex flex-col;
+
+    p {
+      padding-bottom: 8px;
+      @apply uppercase leading-tight;
+    }
+  }
+
+  .contact-email {
+    a {
+      @apply text-2xl;
+    }
+  }
+
+  .contact-number {
+    margin-top: 28px;
+
+    a {
+      @apply text-2xl;
+    }
+  }
+
+  .copyright {
+    margin-top: 20px;
+    @apply flex justify-between;
+
+    li {
+      @apply text-xs;
+    }
+  }
+}

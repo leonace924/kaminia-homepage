@@ -1,0 +1,42 @@
+.c-key-features {
+  padding-top: 171px;
+  padding-bottom: 85px;
+  @apply bg-secondary text-center;
+
+  &__content {
+    margin-top: 39.5px;
+    @apply grid grid-cols-3 gap-9;
+
+    ul {
+      li {
+        margin-bottom: 22px;
+        @apply text-md;
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+
+  &__card {
+    padding: 44.5px 38.5px;
+    @apply w-full border border-secondary flex items-center;
+  }
+
+  &__hamper {
+    margin-top: 45px;
+
+    ul {
+      @apply flex justify-around;
+
+      li {
+        @apply text-lg;
+
+        &:first-child {
+          @apply list-none;
+        }
+      }
+    }
+  }
+}

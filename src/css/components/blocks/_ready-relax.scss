@@ -1,0 +1,30 @@
+.c-ready-relax {
+  margin-top: 135px;
+
+  h1 {
+    font-size: 70px;
+  }
+
+  &__content {
+    height: 564px;
+    background-size: cover;
+    background-position: center;
+    @apply relative flex items-center justify-center;
+
+    &:before {
+      content: '';
+      @apply absolute w-full h-full left-0 top-0;
+      background-color: rgba(0, 0, 0, 0.27);
+    }
+  }
+
+  &__button {
+    margin-top: 35px;
+    padding: 19px 67px;
+    @apply bg-black uppercase text-sm text-white;
+
+    &:hover {
+      @apply bg-gray-800;
+    }
+  }
+}

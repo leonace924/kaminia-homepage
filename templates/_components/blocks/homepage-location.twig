@@ -1,0 +1,26 @@
+{% if slides|length < 2 %}
+	{% set carouselDisabled = 'disabled' %}
+{% else %}
+	{% set carouselDisabled = '' %}
+{% endif %}
+
+
+<div class="c-homepage-location">
+	<div class="container mx-auto">
+		<div class="grid grid-cols-12 gap-9">
+			<div class="col-start-4 col-span-6">
+				<h1>The Location</h1>
+				<h3>Kato Drys (literally translated as “Lower Oak”) is a small, traditional village in the valleys of the southwestern Larnaca region, around 520m above sea level. Surrounded by hills and nature, it’s the perfect place to hike, cycle and simply breathe in fresh air.  Indeed one of the most picturesque villages, an illustration of Kato Drys was used on the old 1 pound note of Cyprus.</h3>
+			</div>
+		</div>
+
+		<div class="c-homepage-location__carousel {{ carouselDisabled }}">
+			{% for slide in slides %}
+				{% set slideImage = slide.slideImage.one() %}
+				<div class="l-list-item l-list-item--{{ loop.index }}">
+					<img src="{{slideImage.getUrl()}}" alt="location-image"/>
+				</div>
+			{% endfor %}
+		</div>
+	</div>
+</div>

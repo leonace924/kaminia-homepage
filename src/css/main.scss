@@ -1,0 +1,26 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+@import "../../node_modules/slick-carousel/slick/slick.scss";
+@import "../../node_modules/slick-carousel/slick/slick-theme.scss";
+
+// Globals
+@import "global/defaults";
+
+// Components
+@import "components/header";
+@import "components/footer";
+
+// Blocks
+@import "components/blocks/homepage-header";
+@import "components/blocks/book-stay";
+@import "components/blocks/at-glance";
+@import "components/blocks/homepage-video";
+@import "components/blocks/key-features";
+@import "components/blocks/homepage-location";
+@import "components/blocks/what-nearby";
+@import "components/blocks/further-beyond";
+@import "components/blocks/ready-relax";

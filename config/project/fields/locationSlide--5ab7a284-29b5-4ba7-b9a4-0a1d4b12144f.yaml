@@ -1,0 +1,14 @@
+contentColumnType: string
+fieldGroup: d30f5b86-f31a-45c3-8ec2-7cd5bfafe237
+handle: locationSlide
+instructions: ''
+name: 'Location Slide'
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_locationslide}}'
+  maxBlocks: ''
+  minBlocks: ''
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

@@ -1,0 +1,40 @@
+.c-homepage-location {
+  margin-top: 128px;
+  @apply text-center;
+
+  h1 {
+    margin-bottom: 55px;
+  }
+
+  h3 {
+    margin-bottom: 73px;
+  }
+
+  &__carousel {
+
+    .slick-slide,
+    .slick-slide * {
+      outline: none !important;
+    }
+
+    .slick-track {
+      display: flex !important;
+    }
+
+    .slick-slide {
+      height: inherit !important;
+    }
+
+    .slick-slide>div {
+      margin: 0 18px;
+    }
+
+    .l-list-item {
+      img {
+        width: 100%;
+        height: 360px;
+        object-fit: cover;
+      }
+    }
+  }
+}

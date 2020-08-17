@@ -1,0 +1,61 @@
+{
+  "babel": {
+    "plugins": [
+      "transform-object-rest-spread"
+    ],
+    "presets": [
+      [
+        "env",
+        {
+          "targets": {
+            "browsers": [
+              "last 2 versions",
+              "ie >= 11"
+            ]
+          },
+          "useBuiltIns": true
+        }
+      ]
+    ]
+  },
+  "browserify": {
+    "transform": [
+      "babelify"
+    ]
+  },
+  "devDependencies": {
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-preset-env": "^1.2.2",
+    "babelify": "^7.3.0",
+    "browser-sync": "^2.18.8",
+    "browserify": "^14.1.0",
+    "core-events": "^2.1.0",
+    "core-js": "^2.4.1",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-imagemin": "^3.2.0",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^2.1.2",
+    "jquery": "^3.5.1",
+    "normalize-scss": "^6.0.0",
+    "snazzy": "^6.0.0",
+    "standard": "^9.0.2",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "name": "kaminia",
+  "scripts": {
+    "build:css": "gulp css",
+    "build:js": "gulp js",
+    "build": "gulp build",
+    "fix": "standard  src/**/*.js gulpfile.js --fix",
+    "lint": "standard src/**/*.js gulpfile.js --verbose | snazzy",
+    "watch": "gulp watch"
+  },
+  "version": "0.0.0",
+  "dependencies": {
+    "slick-carousel": "^1.8.1",
+    "tailwindcss": "^1.6.2"
+  }
+}

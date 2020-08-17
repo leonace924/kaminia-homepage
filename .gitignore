@@ -1,0 +1,14 @@
+/.env
+/.idea
+/vendor
+/web/assets
+.DS_Store
+
+/node_modules/*
+
+/storage/*
+!/storage/.gitkeep
+
+/yarn-error.log
+/npm-debug.log
+.gulp-cache

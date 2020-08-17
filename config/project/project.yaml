@@ -1,0 +1,26 @@
+dateModified: 1597666264
+email:
+  fromEmail: meobius123@gmail.com
+  fromName: 'Craft Starter'
+  transportType: craft\mail\transportadapters\Sendmail
+plugins:
+  assetrev:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  seomatic:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.0.9
+system:
+  edition: solo
+  live: true
+  name: 'Craft Starter'
+  schemaVersion: 3.5.12
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true

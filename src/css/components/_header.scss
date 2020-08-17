@@ -1,0 +1,27 @@
+.c-site-header {
+  &__menu {
+    @apply flex items-center;
+
+    &--wrapper {
+      @apply flex items-center justify-between flex-wrap;
+    }
+
+    .menu-item {
+      &:first-child {
+        @apply pr-12;
+      }
+
+      a {
+        @apply text-sm uppercase;
+      }
+    }
+  }
+
+  &__logo {
+    @apply flex flex-col items-center text-black;
+
+    p {
+      @apply text-2xl font-bold p-0 uppercase leading-tight;
+    }
+  }
+}

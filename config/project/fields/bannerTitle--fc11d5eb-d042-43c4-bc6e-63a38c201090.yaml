@@ -1,0 +1,18 @@
+contentColumnType: text
+fieldGroup: d30f5b86-f31a-45c3-8ec2-7cd5bfafe237
+handle: bannerTitle
+instructions: ''
+name: 'Banner Title'
+searchable: true
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: ''
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText
