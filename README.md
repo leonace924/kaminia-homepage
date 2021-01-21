@@ -15,7 +15,7 @@ Kaminia Website Homepage project for Craft CMS 3 Test
 ### Setup
 
 1. Clone this repositorymark
-   [git@github.com:serieseight/craft-starter.git](https://github.com/serieseight/craft-starter).
+   [git@github.com:AceBerry924/craft-starter.git](https://github.com/AceBerry924/craft-starter).
 2. Run `composer install --ignore-platform-reqs` to install Craft dependencies.
 3. Create an empty MySQL database called `craft-starter.test`.
 - For MySQL
