@@ -1,6 +1,6 @@
 # kaminia-homepage
 
-Kaminia Website Homepage project for Craft CMS 3 Test
+Kaminia Website Homepage project for Craft CMS 3
 
 
 ## Craft setup
